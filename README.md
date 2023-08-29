@@ -7,7 +7,7 @@ There are two main dimensions in Food security status: Current Status of consump
 describes the adequacy of current food consumption of the household) and Coping Capacity, 
 which measures household’s resilience to shocks. Current status is represented by the FCS and 
 rCSI. Coping capacity is measured by the ECMEN and Livelihood Coping. 
-(https://resources.vam.wfp.org/data-analysis/quantitative/food-security/technical-guidance-for-the-consolidated-approach-for-reporting-indicators-of-food-security-cari)[CARI guidelines]
+[CARI guidelines](https://resources.vam.wfp.org/data-analysis/quantitative/food-security/technical-guidance-for-the-consolidated-approach-for-reporting-indicators-of-food-security-cari)
 
 ## 1. FCS
 "Prefer not to answer" values are replaced to 0.
