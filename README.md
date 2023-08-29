@@ -25,6 +25,7 @@ rCSI cut-offs: <4; 4-18; >18;
 ## 3. LCS
 LCS-EN (essential needs) rather than standard LCS-FS (food security) is used here for comparability with the last year data and for avoiding underestimations in assistance heavy context, context with high marketization of needs and seasonality of data collection.
 Strategies "reduce essential education expenditures" and "reduce essential healthcare expenditures" are binded together.
+
 **Coping strategies classification**
 *Stress:* Spending savings, Borrowing food, Eating elsewhere, selling HH assets; -Taking on additional job (not present)
 *crisis:* Selling productive assets, Reducing health/education expenditures, Moving elsewhere
@@ -36,6 +37,7 @@ For each individual variable, values, beyond 99-th percentile are replaced with 
 Values beyond +- 3sd from the median are replaced with NA
 
 Since some variables contain substantial amount of NAs, they will be imputed. For prediction, the following variables are used
+
 hh size, - numeric
 hhs with children - binary
 hohh’s age - numeric
