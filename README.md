@@ -8,3 +8,6 @@ describes the adequacy of current food consumption of the household) and Coping 
 which measures household’s resilience to shocks. Current status is represented by the FCS and 
 rCSI. Coping capacity is measured by the ECMEN and Livelihood Coping. 
 (https://resources.vam.wfp.org/data-analysis/quantitative/food-security/technical-guidance-for-the-consolidated-approach-for-reporting-indicators-of-food-security-cari)[CARI guidelines]
+
+## 1. FCS
+"Prefer not to answer" values are replaced to 0.
