@@ -30,9 +30,9 @@ rCSI formula ***Cheaper food + (Borrow food x 2) + Reduce meals number + Limit p
 rCSI cut-offs: <4; 4-18; >18;
 
 ## 3. LCS
-LCS-EN (essential needs) rather than standard LCS-FS (food security) is used here for comparability with MSNA 2022 and for avoiding underestimations in assistance-heavy context, context with high marketization of needs, and seasonality of data collection.
+LCS-EN (essential needs) is used here for comparability with MSNA 2022 and for avoiding underestimations in assistance-heavy context, and context characterized by high marketization of needs, and to avoid large influence of the seasonality of data collection.
 
-Strategies "reduce essential education expenditures" and "reduce essential healthcare expenditures" are binded together.
+Strategies "reduce essential education expenditures" and "reduce essential healthcare expenditures" are binded together. The strategy 'take on additional work' was not present in MSNA 2023 LCS module i contrast to MSNA 2022.
 
 **Coping strategies classification**
 
@@ -68,9 +68,9 @@ Even though by multiple imputation methodology, it is strongly advised to perfor
 
 Imputed food expenditures are summed up to get total **monthly food expenditures**.
 
-**Non-food expenditures with 1m recall period** include water, HH NFIs of regular purchase, utilities, fuel, transportation, communications, recreation, and other expenditures.
+**Non-food expenditures with 1m recall period** include water, HH NFIs of regular purchase, utilities, fuel, transportation, communications, recreation, and "other" expenditures.
 
-**Non-food expenditures with 6m recall period** include shelter maintenance, HH NFIs of infrequent purchase, medication, clothing & shoes, education, and other infrequent expenditures. These values are divided by 6 to get a value per month.
+**Non-food expenditures with 6m recall period** include shelter maintenance, HH NFIs of infrequent purchase, medication, clothing & shoes, education, and "other" infrequent expenditures. These values are divided by 6 to get a value per month.
 
 The minimum food expenditures threshold is set to be 500 UAH per capita. Thus, all values below this threshold are replaced with 500. The food expenditure values above the 99th percentile are replaced with the value of 99th percentile.
 
@@ -80,9 +80,11 @@ Food and non-food expenditures are summed up to get **total expenditures**.
 
 For the calculation of ECMEN for assessment data, the amount of cash assistance is deducted from total expenditures. For this, hereby, (1) values above the 99th percentile are replaced with the value of the 99th percentile (2) the non-consumption ratio is calculated (ratio of non-consumption expenditures to total expenditures) (3) the value of received cash assistance is decreased by non-consumption part (only consumption part remains) (4) cash assistance is deducted from total expenditures. Negative values are replaced with 0.
 
-**MEB** threshold is set to 6318 UAH per capita (value by CWG). **SMEB** value is 3000 UAH (the subsistence minimum used jointly by the Ukrainian Pension Fund, Ministry of Social Policy and WFP as the desired minimum cost of living to ensure basic living conditions).
+**MEB** threshold is set to 6318 UAH per capita (value by CWG). **SMEB** value is 3000 UAH per capita the subsistence minimum used jointly by the Ukrainian Pension Fund, Ministry of Social Policy and WFP as the desired minimum cost of living to ensure basic living conditions), amounting to 47.5% of the MEB.
 
 ECMEN is computed as a classification of HHs by above MEB per capita, between MEB and SMEB, and below SMEB per capita.
+
+## CARI Food Security Status
 
 **CARI score** is computed based on Current status (FCS, rCSI) and Coping Capacity (LCS, ECMEN) dimensions.
 **CARI level** is computed based on the CARI score.
