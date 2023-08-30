@@ -80,7 +80,7 @@ Food and non-food expenditures are summed up to get **total expenditures**.
 
 For the calculation of ECMEN for assessment data, the amount of cash assistance is deducted from total expenditures. For this, hereby, (1) values above the 99th percentile are replaced with the value of the 99th percentile (2) the non-consumption ratio is calculated (ratio of non-consumption expenditures to total expenditures) (3) the value of received cash assistance is decreased by non-consumption part (only consumption part remains) (4) cash assistance is deducted from total expenditures. Negative values are replaced with 0.
 
-**MEB** threshold is set to 6318 UAH per capita (value by CWG). **SMEB** value is 3000 UAH (proposed ...).
+**MEB** threshold is set to 6318 UAH per capita (value by CWG). **SMEB** value is 3000 UAH (the subsistence minimum used jointly by the Ukrainian Pension Fund, Ministry of Social Policy and WFP as the desired minimum cost of living to ensure basic living conditions).
 
 ECMEN is computed as a classification of HHs by above MEB per capita, between MEB and SMEB, and below SMEB per capita.
 
