@@ -1,7 +1,7 @@
 # UKR_MSNA23_CARI
 CARI script for MSNA 2023 (Ukraine)
 
-# Calculation 
+# Data processing and indicator calculation procedure note 
 The CARI utilizes several indicators to measure the overall food security status of households.
 There are two main dimensions in Food security status: Current Status of consumption, which 
 describes the adequacy of current food consumption of the household) and Coping Capacity, 
