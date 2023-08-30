@@ -87,4 +87,5 @@ ECMEN is computed as a classification of HHs by above MEB per capita, between ME
 ## CARI Food Security Status
 
 **CARI score** is computed based on Current status (FCS, rCSI) and Coping Capacity (LCS, ECMEN) dimensions.
+
 **CARI level** is computed based on the CARI score.
