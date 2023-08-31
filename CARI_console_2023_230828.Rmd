@@ -363,13 +363,13 @@ for(var in exp_vars_all_pc){
 replacing outliers to NA for further imputation
 
 ```{r}
-for (v in exp_vars_all_pc){
-  med <- median(main_ds[, paste0(v)], na.rm = T)
-  sd <- sd(main_ds[, paste0(v)], na.rm = T)
-  thr <- med+sd*3
-  print(paste0(v, " ", thr))
-  main_ds <- main_ds |> mutate(!!v:=ifelse(!!sym(v)>thr, NA, !!sym(v)))
-}
+# for (v in exp_vars_all_pc){
+#   med <- median(main_ds[, paste0(v)], na.rm = T)
+#   sd <- sd(main_ds[, paste0(v)], na.rm = T)
+#   thr <- med+sd*3
+#   print(paste0(v, " ", thr))
+#   main_ds <- main_ds |> mutate(!!v:=ifelse(!!sym(v)>thr, NA, !!sym(v)))
+# }
 ```
 
 
