@@ -47,7 +47,7 @@ Expenditures are being treated per capita.
 
 For each individual variable, values beyond 99th percentile are replaced with the value of the 99th percentile.
 
-Values beyond +- 3sd from the median are replaced with NA.
+~~Values beyond + 3sd from the median are replaced with NA.~~
 
 Since some variables contain a substantial amount of NAs, they will be imputed. For prediction, the following variables are used.
 
